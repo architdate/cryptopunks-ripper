@@ -5,11 +5,11 @@ from io import BytesIO
 TOTAL_PUNKS = 10000
 
 # Cryptopunk colors
-TRANSPARENT = None
-NOT_FOR_SALE = "#638596"
-FOR_SALE = "#95554f"
-ACTIVE_BID = "#8e6fb6"
-WRAPPED = "#66a670"
+TRANSPARENT = None        # transparent background
+NOT_FOR_SALE = "#638596"  # blue background
+FOR_SALE = "#95554f"      # red background
+ACTIVE_BID = "#8e6fb6"    # purple background
+WRAPPED = "#66a670"       # green background
 
 # set background_hex as None for a transparent image
 # base size is 24 x 24 pixels
@@ -29,4 +29,7 @@ def download_punks(max_punks = TOTAL_PUNKS, size = 144, background_hex = NOT_FOR
     print("All punks downloaded")
 
 if __name__ == "__main__":
-    download_punks(size=500)
+    # Configuration
+    img_size = 144 # original cryptopunks are 24x24. The website shows them as 144 pixels.
+    bg_color = NOT_FOR_SALE # look at details above for the colors
+    download_punks(size = img_size, background_hex = bg_color)
