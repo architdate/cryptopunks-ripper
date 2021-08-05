@@ -17,6 +17,7 @@ $ pip install -r requirements.txt
 ![image](https://user-images.githubusercontent.com/17220860/128394022-5869c5b7-d5e7-4708-8c5c-aab228f050c7.png)
 
 The blue red and purple color hex values correspond to these backgrounds: 
+
 ![image](https://user-images.githubusercontent.com/17220860/128394217-82eb36cc-f85f-48dc-bc9c-1a12c7267c50.png)
 
 
@@ -29,6 +30,7 @@ $ python3 cryptopunks.py
 
 ## Output
 - Once the ripper is done running, you should see an output like this
+
 ![image](https://user-images.githubusercontent.com/17220860/128394327-bd3f930a-691b-4fa5-b16d-7860d2e56ab2.png)
 
 ## Feature Requests / Feedback
